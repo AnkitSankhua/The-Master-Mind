@@ -16,15 +16,6 @@ print("AQUA : < A | a >")
 print("MAROON : < M | m >\n")
 print("To make the game more convenient to play, you can type in the first alphabet of the color you want to choose in either lowercase or uppercase..........")
 
-def print_error_prompt(error_type):
-    if error_type == "invalid_length":
-        print(f"Invalid guess length. You must guess {codeLength} colors. Remember to use spaces if you're not using them.")
-    elif error_type == "invalid_color":
-        print("Invalid color in your guess. Use the abbreviations provided.")
-    elif error_type == "already_guessed":
-        print("You have already guessed that color.")
-    elif error_type == "unknown_error":
-        print("An unknown error occurred. Please try again.")
 
 while True:
     codeLength = input("Enter the number of colors you want the other person to guess : ")
@@ -102,6 +93,16 @@ def checkCode(Guess, realCode):
             colourCount[guessColor] -= 1
 
     return correctPosition, incorrectPosition
+
+def print_error_prompt(error_type):
+    if error_type == "invalid_length":
+        print(f"Invalid guess length. You must guess {codeLength} colors. Remember to use spaces if you're not using them.")
+    elif error_type == "invalid_color":
+        print("Invalid color in your guess. Use the abbreviations provided.")
+    elif error_type == "already_guessed":
+        print("You have already guessed that color.")
+    elif error_type == "unknown_error":
+        print("An unknown error occurred. Please try again.")
 
 def game():
     code = generateCode()
