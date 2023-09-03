@@ -1,0 +1,34 @@
+
+                                                                              Mastermind - Codebreaker Challenge
+
+Game Description :
+Mastermind - Codebreaker Challenge is an immersive and strategic code-breaking game that puts your deductive skills to the test. 
+In this thrilling challenge, you are presented with the task of unraveling a secret code comprised of a sequence of vibrant colored pegs. 
+What sets this game apart is its flexibility and interactivity.
+
+Key Features :
+
+1. Customizable Code Length : At the start of the game, you have the freedom to choose the length of the secret code. 
+                              You can opt for a shorter, more manageable code with just 4 colors, or challenge yourself with a longer sequence of up to 10 colors. 
+                              The choice is yours, and it directly influences the game's complexity.
+
+2. Limited Attempts :        To add an extra layer of excitement, you are given a set number of attempts to crack the code, with a maximum limit of 30 tries.   
+                             The clock is ticking, and you'll need to make your moves wisely.
+
+3. Color Palette :           The game offers a palette of 8 vivid colors, each represented by a single-letter abbreviation. 
+                             Whether it's "R" for red or "G" for green, you can easily input your guesses using these abbreviations.
+
+4. Instant Feedback :        After each guess, the game provides you with valuable feedback. 
+                             It tells you the number of colors you've guessed correctly and placed in the right positions, as well as those you've guessed correctly but positioned elsewhere.
+
+5. Error Handling :          If you make a mistake in your guess, the game guides you with helpful prompts. 
+                             Whether it's an incorrect length, an unknown color, or a repeated guess, the prompts ensure you stay on track.
+
+6. Winning Challenge :      Your ultimate objective is to crack the secret code within the allotted attempts. 
+                            With each guess, you'll analyze the feedback and adjust your strategy accordingly, inching closer to the solution.
+
+Mastermind - Codebreaker Challenge is a game that promises endless hours of brain-teasing fun. 
+It's suitable for both novice and experienced codebreakers, offering a dynamic and engaging experience every time you play. 
+Sharpen your problem-solving skills, embrace the challenge, and see if you have what it takes to emerge as the ultimate mastermind!
+
+
